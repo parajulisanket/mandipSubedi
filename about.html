@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/favico.png" type="image/png" />
+    <title>Er. Mandip Subedi — Engineer | Educator | Public Advocate</title>
+    <meta
+      name="description"
+      content="Er. Mandip Subedi — Engineer, educator and public advocate. Engineering with purpose. Leadership with integrity."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body class="antialiased text-slate-800 bg-slate-50">
+    <!-- Header -->
+    <header
+      class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between font-title"
+      >
+        <a href="./index.html" class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
+          >
+            MS
+          </div>
+          <div class="hidden sm:block">
+            <p class="text-base font-semibold">Er. Mandip Subedi, PhD</p>
+            <p class="text-xs text-slate-500">
+              Engineer | Educator | Public Advocate
+            </p>
+          </div>
+        </a>
+
+        <nav
+          class="hidden md:flex items-center gap-6 text-base font-semibold text-slate-700"
+        >
+          <a href="/about.html" class="hover:text-sky-700">About</a>
+          <a href="/leadership.html" class="hover:text-sky-700">Leadership</a>
+          <a href="./projects.html" class="hover:text-sky-700">Projects</a>
+          <a href="./publication.html" class="hover:text-sky-700"
+            >Publications</a
+          >
+          <a href="./talks.html" class="hover:text-sky-700">Talks</a>
+          <a href="./gallery.html" class="hover:text-sky-700">Gallery</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a
+            href="./contact.html"
+            class="inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
+            >Contact</a
+          >
+          <button
+            id="mobileMenuBtn"
+            class="md:hidden p-2 rounded-lg focus:outline-none"
+            aria-label="Open menu"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div
+        id="mobileMenu"
+        class="md:hidden hidden border-t border-slate-100 bg-white"
+      >
+        <div class="px-6 py-4 flex flex-col gap-3">
+          <a href="/about.html" class="py-2">About</a>
+          <a href="/leadership.html" class="py-2">Leadership</a>
+          <a href="./projects.html" class="py-2">Projects</a>
+          <a href="./publication.html" class="py-2">Publications</a>
+          <a href="./talks.html" class="py-2">Talks</a>
+          <a href="./gallery.html" class="py-2">Gallery</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- about-->
+    <section
+      id="leadership"
+      class="bg-gray-50 border-t border-b border-slate-100"
+    >
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="bg-gray-50">
+          <h2 class="text-4xl font-bold font-title pb-2">
+            Engineering with Purpose. Leadership with Integrity.
+          </h2>
+          <hr />
+          <p class="font-bold text-2xl pt-4">Er. Mandip Subedi</p>
+          <p class="text-base text-slate-600 pb-4">
+            Engineer | Educator | Public Advocate
+          </p>
+        </div>
+
+        <div class="h-[50vh] my-3">
+          <img
+            src="./images/about-mandip-subedi.jpg"
+            alt="Mandip Subedi in field"
+            class="w-full h-full rounded-lg object-cover"
+          />
+        </div>
+
+        <div class="p-5">
+          <h4 class="font-semibold text-2xl font-title mb-2">
+            A Lifelong Journey in Engineering and Service
+          </h4>
+          <p class="mt-1 text-base text-slate-700 text-justify">
+            Growing up in the rugged hills of Rolpa, where resources were scarce
+            but dreams were abundant, I learned early on the value of
+            perseverance and purpose. My early education was shaped by
+            determination as much as by textbooks, and the desire to build
+            something meaningful carried me through my studies in civil
+            engineering across various Tribhuvan University institutions. Years
+            later, that journey culminated in a PhD in Geotechnical Engineering
+            — a milestone not just for me, but for the communities I aimed to
+            serve.
+          </p>
+          <p class="mt-3 text-base text-slate-700 text-justify">
+            My professional path has been defined by both fieldwork and
+            scholarship. I have contributed to post-earthquake damage
+            assessments, investigated liquefaction risks, and worked on bridge
+            projects designed for resilience in Nepal’s challenging terrain.
+            Alongside this technical work, I have taught and mentored hundreds
+            of aspiring engineers, helping them navigate not just the
+            complexities of engineering science, but also the responsibilities
+            that come with serving society.
+          </p>
+          <p
+            class="mt-3 text-lg text-amber-700 text-justify bg-amber-50 p-6 font-bold font-title"
+          >
+            “The problems engineers face in Nepal are not technical alone — they
+            are institutional, social, and systemic. That’s where I focus my
+            energy.”
+          </p>
+          <p class="mt-3 text-base text-slate-700 text-justify">
+            Beyond projects and classrooms, I have taken on institutional roles
+            not for the recognition, but to create platforms where others can
+            grow. My belief is that the challenges facing engineers in Nepal are
+            rarely purely technical — they are deeply rooted in institutional,
+            social, and systemic realities.
+          </p>
+        </div>
+      </div>
+      <!-- Our Vision Section -->
+      <div class="relative isolate">
+        <!-- Background video/image -->
+        <img
+          class="absolute inset-0 h-[70vh] w-full object-cover"
+          src="./images/about-img1.png"
+          alt="Background"
+        />
+
+        <!-- Card -->
+        <div class="relative max-w-6xl mx-auto px-6 flex items-center h-[70vh]">
+          <div
+            class="bg-white/90 backdrop-blur-md rounded-md shadow-xl border border-white/60 p-6 md:p-10 w-full max-w-md grid md:grid-cols-[1.4fr_0.6fr] gap-6 items-center"
+          >
+            <!-- Left Text -->
+            <div>
+              <p
+                class="text-xs tracking-[0.15em] font-semibold text-slate-700 mb-3"
+              >
+                OUR VISION
+              </p>
+              <p class="text-slate-800 text-sm leading-relaxed">
+                We believe that designing products and services in close
+                partnership with our clients is the only way to have a real
+                impact on their business.
+              </p>
+              <div class="mt-6 flex items-center gap-4">
+                <span class="h-6 w-px bg-slate-400/60"></span>
+                <a
+                  href="#team"
+                  class="text-sm font-semibold tracking-wide text-slate-900 hover:text-amber-700 transition"
+                >
+                  EXPLORE JOURNEY
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Big Number -->
+            <div class="flex items-center justify-center">
+              <div class="text-center">
+                <span class="text-7xl md:text-8xl font-bold text-amber-700"
+                  >7</span
+                >
+                <p class="mt-2 text-sm md:text-base text-slate-800">
+                  Years of experience
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestones -->
+      <div class="bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-16">
+          <div class="grid lg:grid-cols-2 gap-x-16 gap-y-10">
+            <!-- Item -->
+            <div class="flex items-start gap-8">
+              <div class="shrink-0">
+                <span
+                  class="block text-2xl md:text-4xl font-semibold text-slate-900 leading-none"
+                >
+                  2017
+                </span>
+                <span class="block h-1.5 w-24 bg-slate-900 mt-2"></span>
+              </div>
+              <div>
+                <h3
+                  class="text-xl tracking-wide font-semibold text-slate-900 uppercase"
+                >
+                  Started Public Speaking
+                </h3>
+                <p class="mt-2 text-slate-600 text-md">
+                  Delivered the first keynote at a local youth conference,
+                  inspiring young minds on leadership.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-start gap-8">
+              <div class="shrink-0">
+                <span
+                  class="block text-2xl md:text-4xl font-semibold text-slate-900 leading-none"
+                >
+                  2019
+                </span>
+                <span class="block h-1.5 w-24 bg-slate-900 mt-2"></span>
+              </div>
+              <div>
+                <h3
+                  class="text-xl tracking-wide font-semibold text-slate-900 uppercase"
+                >
+                  Foundation of Mandip Subedi
+                </h3>
+                <p class="mt-2 text-slate-600 text-md">
+                  Established a non-profit to empower education, youth
+                  leadership, and community development projects across Nepal.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-start gap-8">
+              <div class="shrink-0">
+                <span
+                  class="block text-2xl md:text-4xl font-semibold text-slate-900 leading-none"
+                >
+                  2021
+                </span>
+                <span class="block h-1.5 w-24 bg-slate-900 mt-2"></span>
+              </div>
+              <div>
+                <h3
+                  class="text-xl tracking-wide font-semibold text-slate-900 uppercase"
+                >
+                  International Recognition
+                </h3>
+                <p class="mt-2 text-slate-600 text-md">
+                  Invited to speak at an international leadership summit,
+                  representing Nepal’s youth initiatives.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-start gap-8">
+              <div class="shrink-0">
+                <span
+                  class="block text-2xl md:text-4xl font-semibold text-slate-900 leading-none"
+                >
+                  2024
+                </span>
+                <span class="block h-1.5 w-24 bg-slate-900 mt-2"></span>
+              </div>
+              <div>
+                <h3
+                  class="text-xl tracking-wide font-semibold text-slate-900 uppercase"
+                >
+                  Vision for the Future
+                </h3>
+                <p class="mt-2 text-slate-600 text-md">
+                  Launched a long-term strategic plan to expand community
+                  projects, and drive impactful change.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-black text-white px-4 py-6">
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between items-center gap-10 md:gap-0 mb-8"
+      >
+        <div
+          class="flex-1 flex md:justify-start justify-center items-center mb-6 md:mb-0"
+        >
+          <h1 class="text-2xl font-bold leading-tight font-title">
+            Er. Mandip <br />Subedi
+          </h1>
+        </div>
+
+        <nav
+          class="flex-1 flex justify-center gap-6 text-lg mb-6 md:mb-0 font-light"
+        >
+          <a href="/index.html" class="hover:text-blue-400">Home</a>
+          <a href="/about.html" class="hover:text-blue-400">About</a>
+          <a href="/leadership.html" class="hover:text-blue-400">Leadership</a>
+          <a href="./projects.html" class="hover:text-blue-400">Projects</a>
+          <a href="./publication.html" class="hover:text-blue-400"
+            >Publication</a
+          >
+          <a href="./gallery.html" class="hover:text-blue-400">Gallery</a>
+        </nav>
+
+        <div class="flex-1 flex md:justify-end justify-center gap-3">
+          <a
+            href="https://www.linkedin.com/in/mandip-subedi-phd-135a2ab0/"
+            target="_blank"
+            aria-label="LinkedIn"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+          >
+            <i class="fa-brands fa-linkedin-in text-2xl"></i>
+          </a>
+          <a
+            href="https://www.researchgate.net/profile/Mandip-Subedi"
+            target="_blank"
+            aria-label="LinkedIn"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+          >
+            <i class="fa-brands fa-researchgate text-2xl"></i>
+          </a>
+          <a
+            href="https://x.com/mandip_subedi"
+            target="_blank"
+            aria-label="LinkedIn"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+          >
+            <i class="fa-brands fa-x-twitter text-2xl"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/subedimandip/reels/"
+            target="_blank"
+            aria-label="Facebook"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+          >
+            <i class="fa-brands fa-facebook-f text-2xl"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/mandip.subedi/"
+            target="_blank"
+            aria-label="instagram"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+          >
+            <i class="fa-brands fa-instagram text-2xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-10 py-8 mb-8"
+      >
+        <div class="flex-1 text-md font-light">
+          <p>
+            Whether you're a young engineer with questions,<br />a colleague
+            with ideas, or someone seeking for <br />collaboration — feel free
+            to reach out.
+          </p>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-center gap-4 text-white">
+            <a href="tel:+9779857879773" class="flex-shrink-0">
+              <svg
+                class="h-12 w-12 bg-[rgba(255,255,255,0.1)] p-3 rounded-lg border border-transparent hover:border-slate-400"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 12.25 12.25"
+              >
+                <defs>
+                  <style>
+                    .cls-1,
+                    .cls-2 {
+                      fill: none;
+                      stroke: #ffffff;
+                      stroke-miterlimit: 10;
+                    }
+                    .cls-1 {
+                      stroke-linecap: round;
+                    }
+                  </style>
+                </defs>
+                <g>
+                  <path
+                    class="cls-1"
+                    d="M7.81,1A4.89,4.89,0,0,1,10,2.24a4.84,4.84,0,0,1,1.27,2.2"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M7.3,2.86a3,3,0,0,1,1.33.76,3.07,3.07,0,0,1,.76,1.32"
+                  />
+                  <path
+                    class="cls-2"
+                    d="M3.72,6.16A5.09,5.09,0,0,0,6.1,8.54a.45.45,0,0,0,.25.05.49.49,0,0,0,.24-.08l1.53-1a.46.46,0,0,1,.23-.09.59.59,0,0,1,.23,0l2.87,1.23a.47.47,0,0,1,.23.21.4.4,0,0,1,.06.3,2.95,2.95,0,0,1-2.91,2.57A8.33,8.33,0,0,1,.5,3.42a2.92,2.92,0,0,1,.73-1.94A3,3,0,0,1,3.07.5a.52.52,0,0,1,.3.06.52.52,0,0,1,.2.24L4.81,3.67a.45.45,0,0,1,0,.23.48.48,0,0,1-.07.23l-1,1.55a.46.46,0,0,0-.08.24.4.4,0,0,0,.05.24Z"
+                  />
+                </g>
+              </svg>
+            </a>
+            <div>
+              <p class="text-sm font-semibold">Call me now</p>
+              <a href="tel:+9779857879773" class="text-md hover:underline"
+                >+977-9851124192</a
+              >
+            </div>
+          </div>
+
+          <div class="flex items-center gap-4 text-white">
+            <a href="mailto:info@bhojrajthapa.com" class="flex-shrink-0">
+              <svg
+                class="h-12 w-12 bg-[rgba(255,255,255,0.1)] p-3 rounded-lg border border-transparent hover:border-slate-400"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 12.25"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                      stroke: #fbfbfb;
+                      stroke-miterlimit: 10;
+                    }
+                  </style>
+                </defs>
+                <g>
+                  <path class="cls-1" d="M15.5.5,8,7.37.5.5" />
+                  <path
+                    class="cls-1"
+                    d="M.5.5h15V11.12a.65.65,0,0,1-.63.63H1.12a.63.63,0,0,1-.62-.63Z"
+                  />
+                  <path class="cls-1" d="M6.63,6.12.7,11.57" />
+                  <path class="cls-1" d="M15.3,11.57,9.37,6.12" />
+                </g>
+              </svg>
+            </a>
+            <div>
+              <p class="text-sm font-semibold">Chat with me</p>
+              <a
+                href="mailto:info@bhojrajthapa.com"
+                class="text-md hover:underline"
+                >mandip.subedi@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 text-base gap-3"
+      >
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-3 text-gray-400 text-base"
+        >
+          <div>
+            © 2024 Er. Mandip Subedi | All rights reserved | Privacy Policy
+          </div>
+        </div>
+
+        <div class="flex gap-4 items-center">
+          Developed by
+          <a href="#" class="hover:text-blue-400 underline"
+            ><img src="./images/kit.png" alt="" class="w-28 h-8"
+          /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // small interactive helpers
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // mobile menu
+      const mobileBtn = document.getElementById("mobileMenuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+      mobileBtn.addEventListener("click", () =>
+        mobileMenu.classList.toggle("hidden")
+      );
+
+      // simple testimonial carousel (horizontal slide)
+      const prev = document.getElementById("prevTestimonial");
+      const next = document.getElementById("nextTestimonial");
+      const carousel = document.querySelector("#testimonialCarousel > div");
+      let index = 0;
+      const total = carousel.children.length;
+      function showIndex(i) {
+        const pct = -100 * i;
+        carousel.style.transform = `translateX(${pct}%)`;
+      }
+      prev.addEventListener("click", () => {
+        index = (index - 1 + total) % total;
+        showIndex(index);
+      });
+      next.addEventListener("click", () => {
+        index = (index + 1) % total;
+        showIndex(index);
+      });
+
+      // contact form handler (demo)
+      function handleForm(e) {
+        e.preventDefault();
+        const f = e.target;
+        // This demo shows a mailto fallback. In production wire this to server or email service.
+        const name = encodeURIComponent(f.name.value.trim());
+        const email = encodeURIComponent(f.email.value.trim());
+        const message = encodeURIComponent(f.message.value.trim());
+        const subject = encodeURIComponent(
+          "Website inquiry from " + (f.name.value || "Visitor")
+        );
+        const body = encodeURIComponent(
+          `Name: ${f.name.value}\nEmail: ${f.email.value}\n\n${f.message.value}`
+        );
+        window.location.href = `mailto:mandip.subedi@gmail.com?subject=${subject}&body=${body}`;
+      }
+    </script>
+  </body>
+</html>
