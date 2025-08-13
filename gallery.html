@@ -1,29 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/favico.png" type="image/png" />
     <title>Er. Mandip Subedi — Engineer | Educator | Public Advocate</title>
-  <link rel="stylesheet" href="./style/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-   <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  </head>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-</head>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 
-<body>
+  <body>
+    <!-- Header -->
     <header
       class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-slate-200"
     >
@@ -32,11 +41,11 @@
       >
         <a href="./index.html" class="flex items-center gap-3">
           <div
-            class="w-10 h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
+            class="w-10 h-10 md:w-10 md:h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
           >
             MS
           </div>
-          <div class="hidden sm:block">
+          <div>
             <p class="text-base font-semibold">Er. Mandip Subedi, PhD</p>
             <p class="text-xs text-slate-500">
               Engineer | Educator | Public Advocate
@@ -60,7 +69,7 @@
         <div class="flex items-center gap-3">
           <a
             href="./contact.html"
-            class="inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
+            class="hidden md:block inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
             >Contact</a
           >
           <button
@@ -68,7 +77,7 @@
             class="md:hidden p-2 rounded-lg focus:outline-none"
             aria-label="Open menu"
           >
-            ☰
+            <i class="fa-solid fa-bars text-2xl text-gray-500"></i>
           </button>
         </div>
       </div>
@@ -84,134 +93,134 @@
           <a href="./publication.html" class="py-2">Publications</a>
           <a href="./talks.html" class="py-2">Talks</a>
           <a href="./gallery.html" class="py-2">Gallery</a>
+          <a href="./contact.html" class="py-2">Contact</a>
         </div>
       </div>
     </header>
 
-<!-- hero section -->
-   <section class="bg-gray-50">
-      <div class="max-w-6xl mx-auto px-6 py-12">
-          <h2 class="text-4xl font-bold font-title pb-2 text-center">
+    <!-- hero section -->
+    <section class="bg-gray-50">
+      <div class="hero-bg opacity-90">
+        <div class="max-w-6xl mx-auto px-6 py-20">
+          <h2 class="text-4xl font-bold font-title pb-2 text-center text-white">
             In Pictures - From the Ground to the Decision Table
           </h2>
-          <hr />
-          <p class="mt-4 text-base text-slate-700 text-justify">
-            This gallery offers a glimpse into the spaces where impact happens —
+          <hr class="max-w-4xl mx-auto" />
+          <p class="mt-4 text-base text-white text-center max-w-2xl mx-auto">
+            This gallery offers a glimpse into the spaces where impact happens -
             from field sites to policy rooms. Each image reflects moments of
             action, advocacy, and collaboration that connect grassroots
             realities with institutional change.
           </p>
+        </div>
       </div>
-
-
-            <!-- main section -->
-     <div class="max-w-7xl mx-auto pb-12">
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 px-6 lg:px-24 animate-fadeIn my-20"
-      >
-        <a
-          href="./images/img1.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+      <!-- main section -->
+      <div class="max-w-7xl mx-auto py-10">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-6 lg:px-24 animate-fadeIn my-10"
         >
-          <img
-            src="./images/img1.jpg"
-            alt="Gallery Image 1"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/imag4.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/imag4.jpg"
-            alt="Gallery Image 2"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img10.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img10.jpg"
-            alt="Gallery Image 3"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img5.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img5.jpg"
-            alt="Gallery Image 4"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img11.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img11.jpg"
-            alt="Gallery Image 5"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img8.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img8.jpg"
-            alt="Gallery Image 6"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img9.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img9.jpg"
-            alt="Gallery Image 7"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img3.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img3.jpg"
-            alt="Gallery Image 8"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
-        <a
-          href="./images/img6.jpg"
-          data-fancybox="gallery"
-          class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
-        >
-          <img
-            src="./images/img6.jpg"
-            alt="Gallery Image 8"
-            class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-          />
-        </a>
+          <a
+            href="./images/img1.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img1.jpg"
+              alt="Gallery Image 1"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/imag4.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/imag4.jpg"
+              alt="Gallery Image 2"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img10.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img10.jpg"
+              alt="Gallery Image 3"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img5.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img5.jpg"
+              alt="Gallery Image 4"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img11.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img11.jpg"
+              alt="Gallery Image 5"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </img>
+          <a
+            href="./images/img8.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img8.jpg"
+              alt="Gallery Image 6"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img9.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img9.jpg"
+              alt="Gallery Image 7"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img3.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img3.jpg"
+              alt="Gallery Image 8"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+          <a
+            href="./images/img6.jpg"
+            data-fancybox="gallery"
+            class="block transform transition-all duration-300 hover:-translate-y-1 hover:shadow-xl animate-scaleIn"
+          >
+            <img
+              src="./images/img6.jpg"
+              alt="Gallery Image 8"
+              class="w-full h-48 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+            />
+          </a>
+        </div>
       </div>
-    </div>
     </section>
-
 
     <!-- footer -->
     <footer class="bg-black text-white px-4 py-6">
@@ -227,11 +236,11 @@
         </div>
 
         <nav
-          class="flex-1 flex justify-center gap-6 text-lg mb-6 md:mb-0 font-light"
+          class="flex-1 flex flex-wrap md:flex-nowrap justify-center gap-x-6 gap-y-2 text-base md:text-lg mb-6 md:mb-0 font-light px-4"
         >
           <a href="/index.html" class="hover:text-blue-400">Home</a>
-          <a href="/about.html" class="hover:text-blue-400">About</a>
-          <a href="/leadership.html" class="hover:text-blue-400">Leadership</a>
+          <a href="./about.html" class="hover:text-blue-400">About</a>
+          <a href="./leadership.html" class="hover:text-blue-400">Leadership</a>
           <a href="./projects.html" class="hover:text-blue-400">Projects</a>
           <a href="./publication.html" class="hover:text-blue-400"
             >Publication</a
@@ -268,7 +277,7 @@
             href="https://www.facebook.com/subedimandip/reels/"
             target="_blank"
             aria-label="Facebook"
-            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center justify-center rounded-full border border-transparent hover:border-slate-400"
           >
             <i class="fa-brands fa-facebook-f text-2xl"></i>
           </a>
@@ -289,7 +298,7 @@
         <div class="flex-1 text-md font-light">
           <p>
             Whether you're a young engineer with questions,<br />a colleague
-            with ideas, or someone seeking for <br />collaboration — feel free
+            with ideas, or someone seeking for <br />collaboration - feel free
             to reach out.
           </p>
         </div>
@@ -379,29 +388,37 @@
       </div>
 
       <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 text-base gap-3"
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 md:text-base text-sm gap-4 md:gap-3 px-4"
       >
         <div
-          class="flex flex-col md:flex-row justify-between items-center gap-3 text-gray-400 text-base"
+          class="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-3 text-gray-400 md:text-base text-sm text-center md:text-left leading-relaxed"
         >
-          <div>
-            © 2024 Er. Mandip Subedi | All rights reserved | Privacy Policy
-          </div>
+          <p>© 2024 Er. Mandip Subedi • All rights reserved</p>
+          <!-- show divider only on desktop -->
+          <span class="hidden md:inline">|</span>
+          <!-- make Privacy Policy its own line on mobile -->
+          <a
+            href="/privacy.html"
+            class="hover:text-blue-400 underline md:no-underline"
+          >
+            Privacy Policy
+          </a>
         </div>
 
-        <div class="flex gap-4 items-center">
-          Developed by
-          <a href="#" class="hover:text-blue-400 underline"
-            ><img src="./images/kit.png" alt="" class="w-28 h-8"
-          /></a>
+        <div class="flex items-center gap-2 md:gap-4 mt-2 md:mt-0 text-center">
+          <span class="opacity-80">Developed by</span>
+          <a href="#" class="hover:opacity-100 transition-opacity">
+            <img
+              src="./images/kit.png"
+              alt="Kantipur Infotech"
+              class="w-24 h-7 md:w-28 md:h-8 object-contain"
+            />
+          </a>
         </div>
       </div>
     </footer>
 
     <script src="./scripts/index.js"></script>
     <script src="./scripts/menu.js"></script>
-
-
-
-</body>
+  </body>
 </html>

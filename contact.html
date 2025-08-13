@@ -26,11 +26,11 @@
       >
         <a href="./index.html" class="flex items-center gap-3">
           <div
-            class="w-10 h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
+            class="w-10 h-10 md:w-10 md:h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
           >
             MS
           </div>
-          <div class="hidden sm:block">
+          <div>
             <p class="text-base font-semibold">Er. Mandip Subedi, PhD</p>
             <p class="text-xs text-slate-500">
               Engineer | Educator | Public Advocate
@@ -54,7 +54,7 @@
         <div class="flex items-center gap-3">
           <a
             href="./contact.html"
-            class="inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
+            class="hidden md:block inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
             >Contact</a
           >
           <button
@@ -62,7 +62,7 @@
             class="md:hidden p-2 rounded-lg focus:outline-none"
             aria-label="Open menu"
           >
-            ☰
+            <i class="fa-solid fa-bars text-2xl text-gray-500"></i>
           </button>
         </div>
       </div>
@@ -78,10 +78,10 @@
           <a href="./publication.html" class="py-2">Publications</a>
           <a href="./talks.html" class="py-2">Talks</a>
           <a href="./gallery.html" class="py-2">Gallery</a>
+          <a href="./contact.html" class="py-2">Contact</a>
         </div>
       </div>
     </header>
-
     <!-- main contact -->
     <section class="py-16">
       <div class="max-w-7xl mx-auto px-6">
@@ -284,11 +284,11 @@
         </div>
 
         <nav
-          class="flex-1 flex justify-center gap-6 text-lg mb-6 md:mb-0 font-light"
+          class="flex-1 flex flex-wrap md:flex-nowrap justify-center gap-x-6 gap-y-2 text-base md:text-lg mb-6 md:mb-0 font-light px-4"
         >
           <a href="/index.html" class="hover:text-blue-400">Home</a>
-          <a href="/about.html" class="hover:text-blue-400">About</a>
-          <a href="/leadership.html" class="hover:text-blue-400">Leadership</a>
+          <a href="./about.html" class="hover:text-blue-400">About</a>
+          <a href="./leadership.html" class="hover:text-blue-400">Leadership</a>
           <a href="./projects.html" class="hover:text-blue-400">Projects</a>
           <a href="./publication.html" class="hover:text-blue-400"
             >Publication</a
@@ -325,7 +325,7 @@
             href="https://www.facebook.com/subedimandip/reels/"
             target="_blank"
             aria-label="Facebook"
-            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center justify-center rounded-full border border-transparent hover:border-slate-400"
           >
             <i class="fa-brands fa-facebook-f text-2xl"></i>
           </a>
@@ -346,7 +346,7 @@
         <div class="flex-1 text-md font-light">
           <p>
             Whether you're a young engineer with questions,<br />a colleague
-            with ideas, or someone seeking for <br />collaboration — feel free
+            with ideas, or someone seeking for <br />collaboration - feel free
             to reach out.
           </p>
         </div>
@@ -436,21 +436,32 @@
       </div>
 
       <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 text-base gap-3"
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 md:text-base text-sm gap-4 md:gap-3 px-4"
       >
         <div
-          class="flex flex-col md:flex-row justify-between items-center gap-3 text-gray-400 text-base"
+          class="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-3 text-gray-400 md:text-base text-sm text-center md:text-left leading-relaxed"
         >
-          <div>
-            © 2024 Er. Mandip Subedi | All rights reserved | Privacy Policy
-          </div>
+          <p>© 2024 Er. Mandip Subedi • All rights reserved</p>
+          <!-- show divider only on desktop -->
+          <span class="hidden md:inline">|</span>
+          <!-- make Privacy Policy its own line on mobile -->
+          <a
+            href="/privacy.html"
+            class="hover:text-blue-400 underline md:no-underline"
+          >
+            Privacy Policy
+          </a>
         </div>
 
-        <div class="flex gap-4 items-center">
-          Developed by
-          <a href="#" class="hover:text-blue-400 underline"
-            ><img src="./images/kit.png" alt="" class="w-28 h-8"
-          /></a>
+        <div class="flex items-center gap-2 md:gap-4 mt-2 md:mt-0 text-center">
+          <span class="opacity-80">Developed by</span>
+          <a href="#" class="hover:opacity-100 transition-opacity">
+            <img
+              src="./images/kit.png"
+              alt="Kantipur Infotech"
+              class="w-24 h-7 md:w-28 md:h-8 object-contain"
+            />
+          </a>
         </div>
       </div>
     </footer>

@@ -30,11 +30,11 @@
       >
         <a href="./index.html" class="flex items-center gap-3">
           <div
-            class="w-10 h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
+            class="w-10 h-10 md:w-10 md:h-10 rounded-full bg-gradient-to-br from-sky-700 to-amber-500 flex items-center justify-center text-white font-semibold"
           >
             MS
           </div>
-          <div class="hidden sm:block">
+          <div>
             <p class="text-base font-semibold">Er. Mandip Subedi, PhD</p>
             <p class="text-xs text-slate-500">
               Engineer | Educator | Public Advocate
@@ -58,7 +58,7 @@
         <div class="flex items-center gap-3">
           <a
             href="./contact.html"
-            class="inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
+            class="hidden md:block inline-flex items-center gap-2 rounded-full bg-amber-500 hover:brightness-95 text-white px-4 py-2 text-base font-semibold"
             >Contact</a
           >
           <button
@@ -66,7 +66,7 @@
             class="md:hidden p-2 rounded-lg focus:outline-none"
             aria-label="Open menu"
           >
-            ☰
+            <i class="fa-solid fa-bars text-2xl text-gray-500"></i>
           </button>
         </div>
       </div>
@@ -82,6 +82,7 @@
           <a href="./publication.html" class="py-2">Publications</a>
           <a href="./talks.html" class="py-2">Talks</a>
           <a href="./gallery.html" class="py-2">Gallery</a>
+          <a href="./contact.html" class="py-2">Contact</a>
         </div>
       </div>
     </header>
@@ -147,7 +148,7 @@
               class="mt-6 bg-amber-50 border-l-4 border-amber-500 p-4 rounded"
             >
               <blockquote class="text-slate-700 italic">
-                “The problems engineers face in Nepal are not technical alone —
+                “The problems engineers face in Nepal are not technical alone,
                 they are institutional, social, and systemic. That’s where I
                 focus my energy.”
               </blockquote>
@@ -178,7 +179,7 @@
             <div class="p-6 bg-white rounded-lg shadow">
               <h3 class="font-semibold font-title">Teaching & Mentorship</h3>
               <p class="mt-2 text-slate-600 text-sm">
-                Taught and mentored hundreds of engineers — focused on applied
+                Taught and mentored hundreds of engineers, focused on applied
                 research and practical training.
               </p>
             </div>
@@ -204,7 +205,7 @@
             Strengthening Engineering from Within
           </h2>
           <p class="mt-2 text-slate-600">
-            Roles that shaped a collaborative and rights-focused engineering
+            Roles that shaped a collaborative and rights focused engineering
             community.
           </p>
 
@@ -247,7 +248,7 @@
 
             <div class="p-5 rounded-lg bg-slate-50 border">
               <img
-                src="./images/GEOINFRA Logo.jpg"
+                src="./images/ISSMGE_logo.png"
                 alt=""
                 class="h-[2rem] w-auto mb-2"
               />
@@ -290,7 +291,7 @@
         </h2>
         <p class="mt-2 text-slate-600">
           These roles were opportunities to listen, build platforms, and push
-          for systems that protect and empower engineers — especially those
+          for systems that protect and empower engineers, especially those
           working in difficult terrain, with limited support, and against time.
         </p>
 
@@ -403,75 +404,186 @@
             Selected papers, reports and contributions that shaped practice.
           </p>
 
-          <ol class="mt-6 space-y-4">
-            <li class="bg-white p-4 rounded-lg border">
-              <div class="flex items-start justify-between">
-                <div>
-                  <h4 class="font-semibold">
-                    Reconnaissance report — Jajarkot Earthquake
-                  </h4>
-                  <p class="text-sm text-slate-500">
-                    Technical report informing local risk mapping and
-                    preparedness.
-                  </p>
-                </div>
+          <div class="max-w-6xl mx-auto pb-12">
+            <ol class="mt-6 space-y-4">
+              <!-- 1 -->
+              <li class="bg-white p-4 md:p-5 rounded-lg border">
+                <article
+                  class="grid grid-cols-1 md:grid-cols-[1fr,140px] gap-4 md:gap-6"
+                >
+                  <div class="space-y-2">
+                    <div class="flex items-start justify-between gap-3">
+                      <p
+                        class="text-lg font-semibold leading-snug hover:text-blue-600 max-w-4xl"
+                      >
+                        Seismic Performance of Buildings during the November
+                        2023 Earthquake in Jajarkot, Nepal
+                      </p>
 
-                <div class="text-sm text-slate-400 flex flex-col items-center">
-                  <a
-                    href=""
-                    download
-                    class="mt-1 px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-slate-500 transition"
-                  >
-                    Download
-                  </a>
-                </div>
-              </div>
-            </li>
+                      <!-- Year badge -->
+                      <span
+                        class="shrink-0 inline-flex items-center rounded-full bg-slate-100 text-slate-700 text-xs px-2 py-0.5 border border-slate-200"
+                        aria-label="Publication year"
+                        >2025</span
+                      >
+                    </div>
 
-            <li class="bg-white p-4 rounded-lg border">
-              <div class="flex items-start justify-between">
-                <div>
-                  <h4 class="font-semibold">
-                    Melamchi Flood Study — Community Preparedness
-                  </h4>
-                  <p class="text-sm text-slate-500">
-                    Case study linking science and community response.
-                  </p>
-                </div>
-                <div class="text-sm text-slate-400 flex flex-col items-center">
-                  <a
-                    href=""
-                    download
-                    class="mt-1 px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-slate-500 transition"
-                  >
-                    Download
-                  </a>
-                </div>
-              </div>
-            </li>
+                    <p class="text-sm text-slate-600">
+                      R KC, K Lamichhane, K Sharma, M Subedi, S Bhandari
+                    </p>
 
-            <li class="bg-white p-4 rounded-lg border">
-              <div class="flex items-start justify-between">
-                <div>
-                  <h4 class="font-semibold">
-                    Journal paper — Kathmandu Liquefaction Assessment
-                  </h4>
-                  <p class="text-sm text-slate-500">
-                    Peer-reviewed work with code and mapping outputs.
-                  </p>
-                </div>
-                <div class="text-sm text-slate-400 flex flex-col items-center">
-                  <a
-                    href=""
-                    download
-                    class="mt-1 px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-slate-500 transition"
-                  >
-                    Download
-                  </a>
-                </div>
-              </div>
-            </li>
-          </ol>
+                    <p class="text-sm text-slate-500">
+                      <span class="font-medium"
+                        >Journal of Performance of Constructed Facilities</span
+                      >
+                      39 (4), 04025024
+                    </p>
+                    <p class="text-sm text-slate-500 max-w-3xl">
+                      <strong> Description :</strong> On November 3, 2023, a
+                      local magnitude 6.4 (moment magnitude, 5.7) earthquake
+                      struck the Ramidanda epicenter (28°50’24’’ N, 82°11’24’’
+                      E) in Jajarkot...
+                    </p>
+
+                    <div class="flex flex-wrap items-start gap-2 pt-2">
+                      <a
+                        href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W69I2Y0AAAAJ&sortby=pubdate&citation_for_view=W69I2Y0AAAAJ:Zph67rFs4hoC"
+                        target="_blank"
+                        rel="noopener"
+                        class="px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-amber-600 transition"
+                        >View more</a
+                      >
+                    </div>
+                  </div>
+
+                  <img
+                    src="./images/publication-1.png"
+                    class="object-cover hidden md:block"
+                  />
+                </article>
+              </li>
+              <!-- 2 -->
+              <li class="bg-white p-4 md:p-5 rounded-lg border">
+                <article
+                  class="grid grid-cols-1 md:grid-cols-[1fr,140px] gap-4 md:gap-6"
+                >
+                  <div class="space-y-2">
+                    <div class="flex items-start justify-between gap-3">
+                      <p
+                        class="text-lg font-semibold leading-snug hover:text-blue-600 max-w-4xl"
+                      >
+                        Preliminary assessment of September 2024 extreme
+                        rainfall–induced landslides in Central Nepal
+                      </p>
+
+                      <!-- Year badge -->
+                      <span
+                        class="shrink-0 inline-flex items-center rounded-full bg-slate-100 text-slate-700 text-xs px-2 py-0.5 border border-slate-200"
+                        aria-label="Publication year"
+                        >2025</span
+                      >
+                    </div>
+
+                    <p class="text-sm text-slate-600">
+                      Kabin Lamichhane, Kamal Biswakarma, Biplav Acharya, Saroj
+                      Karki, Rajan KC, Mandip Subedi, Keshab Sharma
+                    </p>
+
+                    <p class="text-sm text-slate-500">
+                      <span class="font-medium">Journal of Landslides</span>
+                    </p>
+                    <p class="text-sm text-slate-500 max-w-3xl">
+                      <strong> Description :</strong> Nepal receives about 80%
+                      of its annual monsoon rainfall between June and September,
+                      with the heaviest rainfall occurring in the middle 2
+                      months...
+                    </p>
+
+                    <div class="flex flex-wrap items-start gap-2 pt-2">
+                      <a
+                        href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W69I2Y0AAAAJ&sortby=pubdate&citation_for_view=W69I2Y0AAAAJ:ULOm3_A8WrAC"
+                        target="_blank"
+                        rel="noopener"
+                        class="px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-amber-600 transition"
+                        >View more</a
+                      >
+                    </div>
+                  </div>
+
+                  <img
+                    src="./images/publication-2.png"
+                    class="object-cover hidden md:block"
+                  />
+                </article>
+              </li>
+              <!-- 3 -->
+              <li class="bg-white p-4 md:p-5 rounded-lg border">
+                <article
+                  class="grid grid-cols-1 md:grid-cols-[1fr,140px] gap-4 md:gap-6"
+                >
+                  <div class="space-y-2">
+                    <div class="flex items-start justify-between gap-3">
+                      <p
+                        class="text-lg font-semibold leading-snug hover:text-blue-600 max-w-4xl"
+                      >
+                        Unraveling the Causes and Impacts of Increasing Flood
+                        Disasters in the Kathmandu Valley: Lessons from the
+                        Unprecedented September 2024 Floods
+                      </p>
+
+                      <!-- Year badge -->
+                      <span
+                        class="shrink-0 inline-flex items-center rounded-full bg-slate-100 text-slate-700 text-xs px-2 py-0.5 border border-slate-200"
+                        aria-label="Publication year"
+                        >2025</span
+                      >
+                    </div>
+
+                    <p class="text-sm text-slate-600">
+                      Kabin Lamichhane, Saroj Karki, Keshab Sharma, Bharat
+                      Khadka, Biplav Acharya, Kamal Biswakarma, Sumit Adhikari
+                    </p>
+
+                    <p class="text-sm text-slate-500">
+                      <span class="font-medium"
+                        >Journal of Hazards Research</span
+                      >
+                    </p>
+                    <p class="text-sm text-slate-500 max-w-3xl">
+                      <strong> Description :</strong> Understanding the
+                      underlying causes of flood disasters is essential not only
+                      for developing effective flood management strategies ...
+                    </p>
+
+                    <div class="flex flex-wrap items-start gap-2 pt-2">
+                      <a
+                        href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W69I2Y0AAAAJ&sortby=pubdate&citation_for_view=W69I2Y0AAAAJ:KlAtU1dfN6UC"
+                        target="_blank"
+                        rel="noopener"
+                        class="px-3 py-1 text-xs bg-amber-500 text-white rounded-md hover:bg-amber-600 transition"
+                        >View more</a
+                      >
+                    </div>
+                  </div>
+
+                  <img
+                    src="./images/publication-3.png"
+                    class="object-cover hidden md:block"
+                  />
+                </article>
+              </li>
+            </ol>
+          </div>
+          <div class="text-right">
+            <a
+              href="./publication.html"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-3 py-1 text-sm font-medium text-white bg-amber-500 rounded-lg shadow hover:bg-amber-600 transition"
+            >
+              Learn more<i class="fa-solid fa-angles-right text-xs"></i>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -487,7 +599,7 @@
           <!-- Video 1 -->
           <div class="bg-white rounded-lg shadow p-4">
             <h3 class="font-semibold">
-              GeoMandu Keynote — Resilient Infrastructure
+              GeoMandu Keynote - Resilient Infrastructure
             </h3>
             <div
               class="video-card relative mt-4 aspect-video bg-slate-100 rounded overflow-hidden"
@@ -589,7 +701,7 @@
                 class="flex-none w-full md:w-1/2 p-6 bg-slate-50 rounded-lg mr-4"
               >
                 <p class="text-slate-700">
-                  “He listens before he leads — that’s what set him apart in our
+                  “He listens before he leads - that’s what set him apart in our
                   institution.”
                 </p>
                 <footer class="mt-3 text-xs text-slate-500">
@@ -640,30 +752,32 @@
       </section>
 
       <!-- image part -->
+
       <section class="overflow-hidden">
-        <div class="expanding-gallery">
-          <div class="gallery-img">
+        <div class="expanding-gallery flex flex-wrap">
+          <div class="gallery-img w-1/2 md:w-1/4">
             <img src="./images/img3.jpg" alt="Gallery 3" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img w-1/2 md:w-1/4">
             <img src="./images/imag4.jpg" alt="Gallery 4" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img w-1/2 md:w-1/4">
             <img src="./images/img5.jpg" alt="Gallery 5" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img w-1/2 md:w-1/4">
             <img src="./images/img6.jpg" alt="Gallery 6" />
           </div>
-          <div class="gallery-img">
+          <!-- Hidden images in mobile -->
+          <div class="gallery-img hidden md:block w-1/4">
             <img src="./images/img11.jpg" alt="Gallery 7" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img hidden md:block w-1/4">
             <img src="./images/img8.jpg" alt="Gallery 8" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img hidden md:block w-1/4">
             <img src="./images/img9.jpg" alt="Gallery 9" />
           </div>
-          <div class="gallery-img">
+          <div class="gallery-img hidden md:block w-1/4">
             <img src="./images/img10.jpg" alt="Gallery 10" />
           </div>
         </div>
@@ -684,11 +798,11 @@
         </div>
 
         <nav
-          class="flex-1 flex justify-center gap-6 text-lg mb-6 md:mb-0 font-light"
+          class="flex-1 flex flex-wrap md:flex-nowrap justify-center gap-x-6 gap-y-2 text-base md:text-lg mb-6 md:mb-0 font-light px-4"
         >
           <a href="/index.html" class="hover:text-blue-400">Home</a>
-          <a href="/about.html" class="hover:text-blue-400">About</a>
-          <a href="/leadership.html" class="hover:text-blue-400">Leadership</a>
+          <a href="./about.html" class="hover:text-blue-400">About</a>
+          <a href="./leadership.html" class="hover:text-blue-400">Leadership</a>
           <a href="./projects.html" class="hover:text-blue-400">Projects</a>
           <a href="./publication.html" class="hover:text-blue-400"
             >Publication</a
@@ -725,7 +839,7 @@
             href="https://www.facebook.com/subedimandip/reels/"
             target="_blank"
             aria-label="Facebook"
-            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
+            class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center justify-center rounded-full border border-transparent hover:border-slate-400"
           >
             <i class="fa-brands fa-facebook-f text-2xl"></i>
           </a>
@@ -746,7 +860,7 @@
         <div class="flex-1 text-md font-light">
           <p>
             Whether you're a young engineer with questions,<br />a colleague
-            with ideas, or someone seeking for <br />collaboration — feel free
+            with ideas, or someone seeking for <br />collaboration - feel free
             to reach out.
           </p>
         </div>
@@ -836,21 +950,32 @@
       </div>
 
       <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 text-base gap-3"
+        class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center border-t border-gray-700 pt-6 text-gray-400 md:text-base text-sm gap-4 md:gap-3 px-4"
       >
         <div
-          class="flex flex-col md:flex-row justify-between items-center gap-3 text-gray-400 text-base"
+          class="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-3 text-gray-400 md:text-base text-sm text-center md:text-left leading-relaxed"
         >
-          <div>
-            © 2024 Er. Mandip Subedi | All rights reserved | Privacy Policy
-          </div>
+          <p>© 2024 Er. Mandip Subedi • All rights reserved</p>
+          <!-- show divider only on desktop -->
+          <span class="hidden md:inline">|</span>
+          <!-- make Privacy Policy its own line on mobile -->
+          <a
+            href="/privacy.html"
+            class="hover:text-blue-400 underline md:no-underline"
+          >
+            Privacy Policy
+          </a>
         </div>
 
-        <div class="flex gap-4 items-center">
-          Developed by
-          <a href="#" class="hover:text-blue-400 underline"
-            ><img src="./images/kit.png" alt="" class="w-28 h-8"
-          /></a>
+        <div class="flex items-center gap-2 md:gap-4 mt-2 md:mt-0 text-center">
+          <span class="opacity-80">Developed by</span>
+          <a href="#" class="hover:opacity-100 transition-opacity">
+            <img
+              src="./images/kit.png"
+              alt="Kantipur Infotech"
+              class="w-24 h-7 md:w-28 md:h-8 object-contain"
+            />
+          </a>
         </div>
       </div>
     </footer>
