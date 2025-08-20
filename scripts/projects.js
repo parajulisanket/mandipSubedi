@@ -4,6 +4,9 @@
     roads: document.getElementById("tab-roads"),
     bridges: document.getElementById("tab-bridges"),
     visits: document.getElementById("tab-visits"),
+    slope: document.getElementById("tab-slope"),
+    agency: document.getElementById("tab-agency"),
+    research: document.getElementById("tab-research"),
   };
 
   function activate(key) {

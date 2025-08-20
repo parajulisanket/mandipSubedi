@@ -141,6 +141,37 @@
           >
             Bridge
           </button>
+
+          <button
+            class="tab-btn px-4 py-2 rounded-full text-sm md:text-base bg-slate-100 hover:bg-slate-200"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tab-slope"
+            id="tab-slope-btn"
+            data-tab="slope"
+          >
+            Slope
+          </button>
+          <button
+            class="tab-btn px-4 py-2 rounded-full text-sm md:text-base bg-slate-100 hover:bg-slate-200"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tab-agency"
+            id="tab-agency-btn"
+            data-tab="agency"
+          >
+            Int’l Agency
+          </button>
+          <button
+            class="tab-btn px-4 py-2 rounded-full text-sm md:text-base bg-slate-100 hover:bg-slate-200"
+            role="tab"
+            aria-selected="false"
+            aria-controls="tab-research"
+            id="tab-research-btn"
+            data-tab="research"
+          >
+            Research
+          </button>
           <button
             class="tab-btn px-4 py-2 rounded-full text-sm md:text-base bg-slate-100 hover:bg-slate-200"
             role="tab"
@@ -161,36 +192,36 @@
             role="tabpanel"
             aria-labelledby="tab-roads-btn"
           >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/site8.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <!-- Card -->
               <article
-                class="bg-white rounded-lg shadow group overflow-hidden border"
+                class="bg-white rounded-lg shadow border overflow-hidden hover:shadow-md transition"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/dhampa-panggam.jpg"
-                    alt="Dhampa–Panggam–Faparkhet–Bihu Sadak, Baglung"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
-                <div class="p-4">
+                <div class="p-4 space-y-2">
                   <h3 class="font-semibold">
                     Dhampa–Panggam–Faparkhet–Bihu Sadak
                   </h3>
-                  <p class="mt-2 text-sm text-slate-600">
+                  <p class="text-sm text-slate-600">
                     Detailed engineering survey & report.
                   </p>
-                  <div
-                    class="mt-3 flex items-center gap-2 text-xs text-slate-500"
-                  >
+                  <div class="flex items-center gap-2 text-xs text-slate-500">
                     <span
                       class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
-                      >Baglung</span
                     >
+                      Baglung
+                    </span>
                     <span
                       class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
-                      >15 km</span
                     >
+                      15 km
+                    </span>
                   </div>
                 </div>
               </article>
@@ -198,13 +229,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/malikapali-bhim-pokhara.jpg"
-                    alt="Malikapali–Bhim Pokhara–Hudai Beni Nagarpalika, Baglung"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Malikapali–Bhim Pokhara–Hudai Beni Nagarpalika
@@ -230,13 +254,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/baglung-tintyang-bhakunde.jpg"
-                    alt="Baglung–Tintyang–Bhakunde–Damek–Bareng–Shantipu, Baglung"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Baglung–Tintyang–Bhakunde–Damek–Bareng–Shantipu
@@ -262,13 +279,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/sahid-netramarga-jalpthal.jpg"
-                    alt="Sahid-Netramarga–Garamani–Jalpthal–Charkoshe Jangal–Paththariya, Jhapa"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Sahid-Netramarga–Garamani–Jalpthal–Charkoshe–Paththariya
@@ -294,13 +304,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/piple-dagnam-chimerekhola.jpg"
-                    alt="Piple Mauwafat–Dagnam–Chimerekhola–Kuhine Mangale, Myagdi"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Piple–Dagnam–Chimerekhola–Kuhine Mangale
@@ -326,13 +329,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/chisapani-babiyachaur.jpg"
-                    alt="Chisapani–Babiyachaur Road, Surkhet"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Chisapani–Babiyachaur Road</h3>
                   <p class="mt-2 text-sm text-slate-600">Feasibility study.</p>
@@ -354,13 +350,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/sinam-pathibhara.jpg"
-                    alt="Sinam Dadagaun–Pathibhara Corridor, Taplejung"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Sinam Dadagaun–Pathibhara Corridor
@@ -384,13 +373,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/lalighat-hilsa.jpg"
-                    alt="Lalighat–Chhadari–Shukadjhik–Hilsa, Rara Lokmarga"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Lalighat–Chhadari–Shukadjhik–Hilsa Road
@@ -416,13 +398,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/lukumgaun-pathihalne.jpg"
-                    alt="Lukumgaun–Pathihalne Road"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Lukumgaun–Pathihalne Road</h3>
                   <p class="mt-2 text-sm text-slate-600">Design & survey.</p>
@@ -444,13 +419,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/seti-lokmarga.jpg"
-                    alt="Seti Lokmarga"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Seti Lokmarga</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -470,13 +438,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/kalikot-khulalu-lalu-laifu.jpg"
-                    alt="Kalikot–Khulalu–Lalu–Laifu Road"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Kalikot–Khulalu–Lalu–Laifu Road</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -496,13 +457,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/darchula-tinkar.jpg"
-                    alt="Darchula–Tinkar Road"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Darchula–Tinkar Road</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -522,13 +476,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/roads/thori-bhandara-lothar-malekhu.jpg"
-                    alt="Thori–Bhandara–Lothar–Malekhu Road"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Thori–Bhandara–Lothar–Malekhu Road
@@ -556,18 +503,18 @@
             role="tabpanel"
             aria-labelledby="tab-bridges-btn"
           >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/site9.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <!-- Special Inspection & Repair Design -->
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/solti.jpg"
-                    alt="Solti Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Solti Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -587,13 +534,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/gachhiya.jpg"
-                    alt="Gachhiya Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Gachhiya Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -613,13 +553,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/sapta-koshi-canal.jpg"
-                    alt="Sapta Koshi Canal Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Sapta Koshi Canal Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -639,13 +572,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/bataha.jpg"
-                    alt="Bataha Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Bataha Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -665,13 +591,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/raduwa.jpg"
-                    alt="Raduwa Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Raduwa Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -691,13 +610,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/hardiya-2.jpg"
-                    alt="Hardiya-2 Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Hardiya-2 Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -717,13 +629,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/puwa.jpg"
-                    alt="Puwa Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Puwa Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -743,13 +648,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/bhaluwahi.jpg"
-                    alt="Bhaluwahi Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Bhaluwahi Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -769,13 +667,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/gangajali.jpg"
-                    alt="Gangajali Bridge"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Gangajali Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -796,13 +687,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/dhagen-khola-bhaktapur.jpg"
-                    alt="Dhagen Khola Bridge, Bhaktapur"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Dhagen Khola Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -822,13 +706,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/kutung-khola-nuwakot.jpg"
-                    alt="Kutung Khola Bridge, Nuwakot"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Kutung Khola Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -848,13 +725,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/sani-bheri-rukum.jpg"
-                    alt="Sani Bheri Khola Bridge, Rukum"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Sani Bheri Khola Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -874,13 +744,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/godgode-khola-nuwakot.jpg"
-                    alt="Godgode Khola Bridge, Nuwakot"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Godgode Khola Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -901,13 +764,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/likhu-khola-ramechhap.jpg"
-                    alt="Likhu Khola Bridge, Ramechhap (Steel Truss)"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">
                     Likhu Khola Bridge (Steel Truss)
@@ -931,13 +787,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/leguwa-tumlingtar.jpg"
-                    alt="Leguwa River Bridge, Tumlingtar Road"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Leguwa River Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -958,13 +807,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/fike-pokhara.jpg"
-                    alt="Fike Bridge (Extrados), Pokhara"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Fike Bridge (Extrados)</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -988,13 +830,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/santoshi-kailali.jpg"
-                    alt="Santoshi Bridge, Kailali"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Santoshi Bridge</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1018,13 +853,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/bridges/hardinath-dhanusha.jpg"
-                    alt="Hardinath (Jallad) Khola Bridge, Dhanusha"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Hardinath (Jallad) Khola</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1047,6 +875,555 @@
             </div>
           </section>
 
+          <!-- slope -->
+          <section
+            id="tab-slope"
+            class="hidden"
+            role="tabpanel"
+            aria-labelledby="tab-slope-btn"
+          >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/site2.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!-- 1 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Kaligandaki Corridor — Baiseri-1, Baiseri-2 & Khamvitta
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Geotechnical investigation, detailed design & slope
+                    stabilization for unstable/vulnerable roadside slopes.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Length: 700 m</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Area: 93,000 m²</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 2 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Inarpani (Ch. 15+700), Midhill Hwy — Baglung
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Detailed geotechnical investigation & design of mitigation
+                    measures for roadside slope disaster management.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Baglung–Burtibang Rd</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 3 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Kaligandaki Corridor — Tatopani, Rupse & Kabrebehir
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Geotechnical investigation, detailed design & slope
+                    stabilization for unstable/vulnerable slopes.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Length: 650 m</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Area: 80,000 m²</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 4 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Kaligandaki Corridor — Sirubari, Khahare Khola & Lete Khola
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Geo-technical investigation, detail design & slope
+                    stabilization for unstable/vulnerable roadside slopes.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Length: 600 m</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Area: 8,500 m²</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 5 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    BP Highway Flood Damages — Technical Review
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Review of September 2024 flood impacts & strategies for
+                    resilient road planning in Nepal.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >BP Highway</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2025</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 6 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Narayanghat–Mugling Hwy — Slope Hazard Assessment
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Assessment of roadside slope hazards & infrastructure
+                    vulnerability for maintenance prioritization.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Narayanghat–Mugling</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2025</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 7 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Tulsi Bhanyang — Unstable Roadside Slope
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Geotechnical investigation, detailed design & stabilization
+                    at chainage 104+500.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Chainage 104+500</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2025</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- international agency -->
+          <section
+            id="tab-agency"
+            class="hidden"
+            role="tabpanel"
+            aria-labelledby="tab-agency-btn"
+          >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/img6.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!-- 1 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Pre-feasibility Study on Ecotourism Development of Kupinde
+                    Lake
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Conducted for Asian Development Bank (ADB), focusing on
+                    sustainable tourism development in Salyan, Nepal.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >ADB</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 2 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Building Adaptation and Resilience in the Hindu Kush
+                    Himalayas (BARHKH)
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    ADB-supported program on resilience and adaptation in
+                    mountainous regions of Nepal and South Asia.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >ADB</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2023</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 3 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Road & Slope Stabilization – World Bank Funded Projects
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Geotechnical investigations and engineering design for slope
+                    stabilization to support resilient road networks.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >World Bank</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2022</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 4 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Hazard & Risk Assessment Studies
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Multihazard assessment for resilient infrastructure
+                    planning, conducted under international donor-supported
+                    programs.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >World Bank</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2021</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 5 -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Disaster Resilience & Risk Reduction Programs
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Contributions to resilience planning and engineering studies
+                    in collaboration with UNDP and other international agencies.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >UNDP</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2020</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- research-->
+          <section
+            id="tab-research"
+            class="hidden"
+            role="tabpanel"
+            aria-labelledby="tab-research-btn"
+          >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/research.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <!-- 1: Road risk integration -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Integrating Landslide Susceptibility & Road Vulnerability
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Framework for risk assessment and mountain road resilience
+                    enhancement.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Research</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2025</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 2: Forensic cut-slope investigation -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Forensic Investigation of Roadside Cut-Slope Landslide
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Failure mechanism analysis and stabilization recommendations
+                    in the Lesser Himalaya.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Case Study</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2025</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 3: Post-Reconnaissance Study (Jajarkot EQ) -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Post-Reconnaissance Study: Jajarkot Earthquake (Nov 3, 2023)
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Field observations, rapid impacts assessment, and response
+                    lessons for DRR.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Reconnaissance</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2023</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 4: Harmichaur–Arbeni (Kaligandaki) slope work -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Harmichaur–Arbeni (Kaligandaki) Slope Risk Investigation
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Drone & total-station based mapping, geotechnical
+                    characterization, and countermeasures.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Applied Research</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 5: Inarpani mitigation design -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Inarpani (Mid-Hill Hwy) — Slope Hazard Mitigation Design
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Detailed geotechnical investigations and mitigation concepts
+                    for roadside slope disasters.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Applied Research</span
+                    >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >2024</span
+                    >
+                  </div>
+                </div>
+              </article>
+
+              <!-- 6: Kathmandu Valley lacustrine soils -->
+              <article
+                class="bg-white rounded-lg shadow group overflow-hidden border"
+              >
+                <div class="p-4">
+                  <h3 class="font-semibold">
+                    Geotechnical Characterization of Kathmandu Valley Lacustrine
+                    Soils
+                  </h3>
+                  <p class="mt-2 text-sm text-slate-600">
+                    Database-driven soil property evaluation for seismic and
+                    liquefaction analyses.
+                  </p>
+                  <div
+                    class="mt-3 flex flex-wrap items-center gap-2 text-xs text-slate-500"
+                  >
+                    <span
+                      class="inline-flex rounded-full bg-slate-100 px-2.5 py-1"
+                      >Journal/Preprint</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
           <!-- Technical Visits -->
           <section
             id="tab-visits"
@@ -1054,18 +1431,18 @@
             role="tabpanel"
             aria-labelledby="tab-visits-btn"
           >
+            <div class="w-full flex justify-center mb-10">
+              <img
+                src="./images/site10.jpg"
+                alt="Road Projects"
+                class="w-full max-w-6xl rounded-md shadow-md object-cover h-[45vh]"
+              />
+            </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <!-- IGC 2023 -->
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/igc-2023-roorkee.jpg"
-                    alt="IGC 2023, IIT Roorkee, India"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">IGC 2023 — IIT Roorkee</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1091,13 +1468,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/arc-17-kazakhstan.jpg"
-                    alt="17th Asian Regional Conference on SMGE, Kazakhstan"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">17th ARC on SMGE</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1123,13 +1493,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/icgdr-china.jpg"
-                    alt="ICGdR, China"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">ICGdR — China</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1154,13 +1517,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/geoniagara-canada.jpg"
-                    alt="GeoNiagara Conference, Canada"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">GeoNiagara — Canada</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1186,13 +1542,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/ncee-usa.jpg"
-                    alt="NCEE, USA"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">NCEE — USA</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1218,13 +1567,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/kgs-seoul.jpg"
-                    alt="Korean Geotechnical Society Symposium, Seoul"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">KGS Symposium — Seoul</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1250,13 +1592,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/jsce-japan.jpg"
-                    alt="JSCE Annual International Meeting, Japan"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">JSCE Annual Meeting — Japan</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1282,13 +1617,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/jst-sakura.jpg"
-                    alt="JST Sakura Science Program, Japan"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">JST Sakura Science Program</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1313,13 +1641,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/geora-bgc.jpg"
-                    alt="GeoRA Program, BGC Engineering, Canada"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">GeoRA Program — BGC Engineering</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1344,13 +1665,6 @@
               <article
                 class="bg-white rounded-lg shadow group overflow-hidden border"
               >
-                <div class="h-44 bg-slate-100 overflow-hidden">
-                  <img
-                    src="./images/visits/webinars.jpg"
-                    alt="Cross-Border Webinars and Ehime University Webinars"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div class="p-4">
                   <h3 class="font-semibold">Cross-Border Webinar Series</h3>
                   <p class="mt-2 text-sm text-slate-600">
@@ -1387,7 +1701,7 @@
         </div>
 
         <nav
-          class="flex-1 flex flex-wrap md:flex-nowrap justify-center gap-x-6 gap-y-2 text-base md:text-lg mb-6 md:mb-0 font-light px-4"
+          class="flex-1 flex flex-wrap md:flex-nowrap justify-center gap-x-4 gap-y-2 text-base md:text-lg mb-6 md:mb-0 font-light px-4"
         >
           <a href="/index.html" class="hover:text-blue-400">Home</a>
           <a href="./about.html" class="hover:text-blue-400">About</a>
@@ -1396,6 +1710,7 @@
           <a href="./publication.html" class="hover:text-blue-400"
             >Publication</a
           >
+          <a href="./talks.html" class="hover:text-blue-400">Videos</a>
           <a href="./gallery.html" class="hover:text-blue-400">Gallery</a>
         </nav>
 
@@ -1433,12 +1748,12 @@
             <i class="fa-brands fa-facebook-f text-2xl"></i>
           </a>
           <a
-            href="https://www.instagram.com/mandip.subedi/"
+            href="https://scholar.google.com/citations?user=W69I2Y0AAAAJ&hl=en"
             target="_blank"
             aria-label="instagram"
             class="h-12 w-12 bg-[rgba(255,255,255,0.1)] flex items-center p-3 rounded-full border border-transparent hover:border-slate-400"
           >
-            <i class="fa-brands fa-instagram text-2xl"></i>
+            <img src="./images/white.png" alt="" />
           </a>
         </div>
       </div>
